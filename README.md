@@ -57,7 +57,7 @@ The platform consists of **5 polyglot microservices** built with Java Spring Boo
 <br />
 
 <div align="center">
-  <img src="https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/14_03_Dataplane_AWS_Cloud_Automated_Terraform.png" alt="Architecture Diagram" width="100%" />
+  <img src=" https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/1.png " alt="Architecture Diagram" width="100%" />
   <p><i>Figure 1: End-to-End Microservices Architecture with AWS RDS, DynamoDB, ElastiCache, and SQS Integration</i></p>
 </div>
 
@@ -70,7 +70,7 @@ All applications are containerized using production security best practices. Lev
 <br />
 
 <div align="center">
-  <img src="https://placehold.co/1200x450/0f172a/38bdf8?text=2.+Docker+BuildKit+%26+Multi-Stage+Container+Pipeline" alt="Docker Pipeline" width="100%" />
+  <img src="https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/2.png" alt="Docker Pipeline" width="100%" />
   <p><i>Figure 2: Multi-Stage Docker Build Optimization & Multi-Platform Registry Flow</i></p>
 </div>
 
@@ -83,7 +83,7 @@ The cloud platform is fully automated using reusable **Terraform Modules**. It p
 <br />
 
 <div align="center">
-  <img src="https://placehold.co/1200x450/1e293b/a855f7?text=3.+AWS+VPC+%26+EKS+Cluster+Provisioning+with+Terraform" alt="Terraform AWS Infrastructure" width="100%" />
+  <img src="https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/3.png" alt="Terraform AWS Infrastructure" width="100%" />
   <p><i>Figure 3: Automated AWS Infrastructure Topology Provisioned via Modular Terraform</i></p>
 </div>
 
@@ -96,7 +96,7 @@ To enforce a zero-trust architecture, sensitive credentials are never stored in 
 <br />
 
 <div align="center">
-  <img src="https://placehold.co/1200x450/0f172a/f43f5e?text=4.+Kubernetes+Secrets+Store+CSI+%26+EBS+Dynamic+Storage" alt="Secrets & Storage Flow" width="100%" />
+  <img src="https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/4.png" alt="Secrets & Storage Flow" width="100%" />
   <p><i>Figure 4: Secure AWS Secrets CSI Mounting & EBS Dynamic Volume Provisioning Lifecycle</i></p>
 </div>
 
@@ -109,7 +109,7 @@ Inbound traffic is routed dynamically through the **AWS Load Balancer Controller
 <br />
 
 <div align="center">
-  <img src="https://placehold.co/1200x450/1e293b/38bdf8?text=5.+Ingress+ALB+Controller+%2B+Route53+ExternalDNS" alt="Ingress & DNS Setup" width="100%" />
+  <img src="https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/5.png" alt="Ingress & DNS Setup" width="100%" />
   <p><i>Figure 5: Automated Route53 DNS Sync and AWS ALB SSL Termination Flow</i></p>
 </div>
 
@@ -122,7 +122,7 @@ To optimize compute costs by up to **70%**, the platform uses **Karpenter** for 
 <br />
 
 <div align="center">
-  <img src="https://placehold.co/1200x450/0f172a/34d399?text=6.+Karpenter+Spot+Autoscaling+%26+Interruption+Handling" alt="Autoscaling Architecture" width="100%" />
+  <img src="https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/6.png" alt="Autoscaling Architecture" width="100%" />
   <p><i>Figure 6: Karpenter Spot Interruption Workflow with HPA Integration</i></p>
 </div>
 
@@ -135,7 +135,7 @@ Complete system observability is provided by the **AWS Distro for OpenTelemetry 
 <br />
 
 <div align="center">
-  <img src="https://placehold.co/1200x450/1e293b/f59e0b?text=7.+OpenTelemetry+Traces+(X-Ray)+%26+Prometheus/Grafana" alt="Observability Architecture" width="100%" />
+  <img src="https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/7.png" alt="Observability Architecture" width="100%" />
   <p><i>Figure 7: Unified Observability Pipeline with OpenTelemetry, X-Ray, and Grafana Dashboards</i></p>
 </div>
 
@@ -152,7 +152,7 @@ Application deployments strictly follow **GitOps** principles:
 <br />
 
 <div align="center">
-  <img src="https://placehold.co/1200x450/0f172a/6366f1?text=8.+GitHub+Actions+CI+%2B+ArgoCD+GitOps+Continuous+Deployment" alt="CI/CD Pipeline Architecture" width="100%" />
+  <img src="https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/8.png" alt="CI/CD Pipeline Architecture" width="100%" />
   <p><i>Figure 8: End-to-End Automated CI/CD Engine via GitHub Actions and ArgoCD GitOps</i></p>
 </div>
 
