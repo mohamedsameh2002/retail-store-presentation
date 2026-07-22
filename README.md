@@ -5,31 +5,34 @@
 
   <br />
 
-  <!-- 3 Big Navigation Cards / Icons -->
+  <!-- 3 Interactive Large Cards / Navigation -->
   <table border="0" style="border-collapse: collapse; width: 100%;">
     <tr>
       <td align="center" width="33%" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
-        <a href="https://github.com/mohamedsameh2002/retail-store-microservices">
-          <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/github-actions/github-actions.png" width="60" alt="Project Repo" />
-          <h3 style="margin-top: 10px;">🚀 Main Application</h3>
+        <a href="https://github.com/mohamedsameh2002/retail-store-microservices" style="text-decoration: none; color: inherit; display: block;">
+          <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/github-actions/github-actions.png" width="60" alt="CI/CD Pipeline" />
+          <h3 style="margin-top: 10px; color: #58a6ff;">🚀 Application & CI/CD</h3>
           <p><code>retail-store-microservices</code></p>
-          <sub>Microservices Code, Dockerfiles & CI/CD Pipelines</sub>
+          <p style="font-size: 12px; color: #8b949e; margin-top: 8px;">Microservices Source Code, Dockerfiles & CI/CD Workflows</p>
+          <span style="font-size: 11px; color: #2f81f7;">👉 Click to navigate to Repository</span>
         </a>
       </td>
       <td align="center" width="33%" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
-        <a href="https://github.com/mohamedsameh2002/kubernetes-helm-retail-store">
+        <a href="https://github.com/mohamedsameh2002/kubernetes-helm-retail-store" style="text-decoration: none; color: inherit; display: block;">
           <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png" width="60" alt="Kubernetes Repo" />
-          <h3 style="margin-top: 10px;">☸️ K8s & Helm</h3>
+          <h3 style="margin-top: 10px; color: #58a6ff;">☸️ K8s & Helm Manifests</h3>
           <p><code>kubernetes-helm-retail-store</code></p>
-          <sub>Helm Charts, Ingress, Secrets & ExternalDNS</sub>
+          <p style="font-size: 12px; color: #8b949e; margin-top: 8px;">Helm Charts, Ingress Controllers, Secrets & ExternalDNS</p>
+          <span style="font-size: 11px; color: #2f81f7;">👉 Click to navigate to Repository</span>
         </a>
       </td>
       <td align="center" width="33%" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
-        <a href="https://github.com/mohamedsameh2002/terraform-retail-store">
+        <a href="https://github.com/mohamedsameh2002/terraform-retail-store" style="text-decoration: none; color: inherit; display: block;">
           <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terraform/terraform.png" width="60" alt="Terraform Repo" />
-          <h3 style="margin-top: 10px;">🏗️ Infrastructure</h3>
+          <h3 style="margin-top: 10px; color: #58a6ff;">🏗️ Infrastructure as Code</h3>
           <p><code>terraform-retail-store</code></p>
-          <sub>AWS VPC, EKS Cluster, Karpenter & IaC Modules</sub>
+          <p style="font-size: 12px; color: #8b949e; margin-top: 8px;">AWS VPC, EKS Cluster, Karpenter & Modular IaC Setup</p>
+          <span style="font-size: 11px; color: #2f81f7;">👉 Click to navigate to Repository</span>
         </a>
       </td>
     </tr>
@@ -39,115 +42,115 @@
 
 ---
 
-## 📐 System Architecture & Overview
+## 📐 System Architecture & Platform Overview
 
-تتكون المنصة من **5 خدمات مصغرة (Polyglot Microservices)** تعمل بلغات برمجة مختلفة (Java Spring Boot, Go, Node.js). تم تصميم البنية التحتية بالكامل لتعمل على بيئة إنتاجية جاهزة للعمليات المعقدة على AWS EKS مع فصل كامل للبيانات واستخدام AWS Data Plane المتكامل.
+The platform consists of **5 polyglot microservices** built with Java Spring Boot, GoLang, and Node.js. The infrastructure is engineered for production workloads on AWS EKS, featuring complete data isolation and native integration with the AWS Data Plane services.
 
 <br />
 
 <div align="center">
   <img src="https://placehold.co/1200x500/1e293b/00f2fe?text=1.+Full+Microservices+%26+AWS+Data+Plane+Architecture" alt="Architecture Diagram" width="100%" />
-  <p><i>شكل 1: المخطط المعماري الشامل للخدمات وتكاملها مع قواعد بيانات AWS RDS و DynamoDB و ElastiCache</i></p>
+  <p><i>Figure 1: End-to-End Microservices Architecture with AWS RDS, DynamoDB, ElastiCache, and SQS Integration</i></p>
 </div>
 
 ---
 
-## 📦 Containerization & Build Optimization (Modules 01-05)
+## 📦 Containerization & Docker Build Optimization
 
-تم تعبئة جميع التطبيقات داخل Docker Containers باستخدام أفضل ممارسات الأمان. اعتمدنا على **Docker BuildKit** وتقنية **Multi-Stage Builds** لتصغير حجم الصور وتقليل ثغرات الأمان، بالإضافة إلى دعم منصات متعددة (AMD64 & ARM64) مع تنظيم كامل لترتيب التشغيل واختبارات الصحة (Health Checks).
+All applications are containerized using production security best practices. Leveraging **Docker BuildKit** and **Multi-Stage Builds**, image footprints are optimized to reduce security vulnerabilities. The images support multi-platform architectures (`AMD64` & `ARM64`) with layer caching, health checks, and strict non-root user execution.
 
 <br />
 
 <div align="center">
   <img src="https://placehold.co/1200x450/0f172a/38bdf8?text=2.+Docker+BuildKit+%26+Multi-Stage+Container+Pipeline" alt="Docker Pipeline" width="100%" />
-  <p><i>شكل 2: مراحل بناء Docker Container المحسّنة وتوزيع Layers للحصول على أقصى سرعة بناء</i></p>
+  <p><i>Figure 2: Multi-Stage Docker Build Optimization & Multi-Platform Registry Flow</i></p>
 </div>
 
 ---
 
-## 🏗️ Infrastructure as Code with Terraform (Modules 06-07)
+## 🏗️ Infrastructure as Code with Terraform
 
-تدار البنية التحتية بالكامل بواسطة **Terraform Modules** لإنشاء بيئة AWS VPC احترافية مع شبكات عامة وخاصة (Public/Private Subnets)، وحفظ الحالة (Remote State) عبر S3 مع DynamoDB للقفل (State Locking). كما يتم إنشاء مجتمع EKS مع إدارة هويات IAM ودعم OIDC مخصص للتطبيقات.
+The cloud platform is fully automated using reusable **Terraform Modules**. It provisions a highly resilient AWS VPC architecture with public/private subnets and manages remote state locking via Amazon S3 and DynamoDB. The EKS cluster includes IAM OIDC provider integration for granular pod-level security permissions (IRSA).
 
 <br />
 
 <div align="center">
   <img src="https://placehold.co/1200x450/1e293b/a855f7?text=3.+AWS+VPC+%26+EKS+Cluster+Provisioning+with+Terraform" alt="Terraform AWS Infrastructure" width="100%" />
-  <p><i>شكل 3: هيكلية الشبكة VPC وعنقود AWS EKS المصممين بواسطة Terraform</i></p>
+  <p><i>Figure 3: Automated AWS Infrastructure Topology Provisioned via Modular Terraform</i></p>
 </div>
 
 ---
 
-## 🔐 Zero-Trust Secrets & Persistence (Modules 08-11)
+## 🔐 Zero-Trust Secrets Management & Storage Persistence
 
-تأمين الأسرار وقواعد البيانات يتم بدون كتابة أي كلمة سر داخل الأكواد! نستخدم **Secrets Store CSI Driver** و **AWS Secrets Manager Driver** لربط الأسرار مباشرة من AWS إلى الـ Pods، مع استخدام **AWS EBS CSI Driver** لإدارة الأقراص المرنة والربط الديناميكي للمساحات التخزينية.
+To enforce a zero-trust architecture, sensitive credentials are never stored in source code. Using the **Secrets Store CSI Driver** and **AWS Secrets Manager Driver**, secrets are dynamically mounted directly into application pods. Persistent workloads utilize the **AWS EBS CSI Driver** for dynamic storage provisioning via Kubernetes StorageClasses.
 
 <br />
 
 <div align="center">
   <img src="https://placehold.co/1200x450/0f172a/f43f5e?text=4.+Kubernetes+Secrets+Store+CSI+%26+EBS+Dynamic+Storage" alt="Secrets & Storage Flow" width="100%" />
-  <p><i>شكل 4: آلية جلب الأسرار الآمنة ومزامنة التخزين الديناميكي على Kubernetes</i></p>
+  <p><i>Figure 4: Secure AWS Secrets CSI Mounting & EBS Dynamic Volume Provisioning Lifecycle</i></p>
 </div>
 
 ---
 
-## 🌐 Dynamic Traffic Ingress & ExternalDNS (Modules 12-16)
+## 🌐 Dynamic Traffic Routing, TLS & Automated DNS
 
-يتم توجيه المرور عبر **AWS Load Balancer Controller** لإنشاء Application Load Balancer (ALB) تلقائياً، مع دعم شهادات SSL/TLS المجانية عبر **AWS Certificate Manager (ACM)**. ويقوم إضافية **ExternalDNS** بإنشاء وتسجيل أحدث عناوين DNS في **Amazon Route53** تلقائياً بمجرد إطلاق الخدمة.
+Inbound traffic is routed dynamically through the **AWS Load Balancer Controller**, which automatically provisions Application Load Balancers (ALB) based on Kubernetes Ingress objects. SSL/TLS termination is managed seamlessly via **AWS Certificate Manager (ACM)**, while **ExternalDNS** automatically synchronizes domain records directly with **Amazon Route53**.
 
 <br />
 
 <div align="center">
   <img src="https://placehold.co/1200x450/1e293b/38bdf8?text=5.+Ingress+ALB+Controller+%2B+Route53+ExternalDNS" alt="Ingress & DNS Setup" width="100%" />
-  <p><i>شكل 5: مسار حركة المرور من النطاق الخارجي Route53 وحتى التطبيقات عبر Ingress ALB</i></p>
+  <p><i>Figure 5: Automated Route53 DNS Sync and AWS ALB SSL Termination Flow</i></p>
 </div>
 
 ---
 
-## ⚡ Smart Autoscaling with Karpenter & HPA (Modules 17-18)
+## ⚡ Smart Autoscaling with Karpenter & Horizontal Pod Autoscaler (HPA)
 
-لتحقيق أقصى توفير في التكلفة تصل إلى **70%**، اعتمدنا على **Karpenter** لتوسعة الخوادم (Nodes) بناءً على حاجة الـ Pods اللحظية وبدعم كامل لخوادم **Spot Instances**. يتم التعامل مع تنبيهات الانقطاع عبر `EventBridge → SQS → Karpenter` لضمان إعادة توزيع الحمولات بدون أي توقف (Zero-Downtime)، بالدمج مع **HPA** للتوسع الأفقي للـ Pods.
+To optimize compute costs by up to **70%**, the platform uses **Karpenter** for rapid, pod-driven node provisioning. It employs a diversified **Spot Instances** strategy with automated interruption handling via `EventBridge → SQS → Karpenter` for zero-downtime pod evictions. HPA dynamically scales pod replicas while Karpenter right-sizes underlying nodes in real time.
 
 <br />
 
 <div align="center">
   <img src="https://placehold.co/1200x450/0f172a/34d399?text=6.+Karpenter+Spot+Autoscaling+%26+Interruption+Handling" alt="Autoscaling Architecture" width="100%" />
-  <p><i>شكل 6: آلية التوسع الذكي مع Karpenter للتقليل المباشر للتكاليف ومعالجة انقطاع الـ Spot</i></p>
+  <p><i>Figure 6: Karpenter Spot Interruption Workflow with HPA Integration</i></p>
 </div>
 
 ---
 
-## 📊 Full-Stack Observability with OpenTelemetry (Module 20)
+## 📊 Full-Stack Observability with OpenTelemetry
 
-تتبع المراقبة الشاملة عبر **AWS Distro for OpenTelemetry (ADOT)** لجمع التتبع (Traces) والتكلفة عبر **AWS X-Ray** (مع تصفية فحص الصحة لتوفير 85% من تكاليف المراقبة). ويتم تجميع السجلات في **CloudWatch Insights** والمقاييس على **Amazon Managed Prometheus & Grafana**.
+Complete system observability is provided by the **AWS Distro for OpenTelemetry (ADOT)**. Distributed tracing is exported to **AWS X-Ray** with custom health-check filtering (saving up to 85% in tracing overhead). Log aggregation is handled by **CloudWatch Insights**, while system metrics are monitored via **Amazon Managed Prometheus** and **Grafana**.
 
 <br />
 
 <div align="center">
   <img src="https://placehold.co/1200x450/1e293b/f59e0b?text=7.+OpenTelemetry+Traces+(X-Ray)+%26+Prometheus/Grafana" alt="Observability Architecture" width="100%" />
-  <p><i>شكل 7: منظومة المراقبة والـ Telemetry المتكاملة عبر X-Ray و Prometheus و Grafana</i></p>
+  <p><i>Figure 7: Unified Observability Pipeline with OpenTelemetry, X-Ray, and Grafana Dashboards</i></p>
 </div>
 
 ---
 
-## 🔄 Automated GitOps CI/CD Pipeline (Module 21)
+## 🔄 GitOps Automated CI/CD Pipeline
 
-يتم التطوير وفق منهجية **GitOps** المتقدمة:
-1. يرفع المطور الكود إلى **GitHub**.
-2. تنطلق **GitHub Actions** عبر OIDC بدون مفاتيح أكسس لبناء الصورة ورفعها لـ **AWS ECR**.
-3. يتم تحديث ملفات **Helm Values** تلقائياً.
-4. يكتشف **ArgoCD** التغيير داخل العنقود ويقوم بتطبيقه وسحب الصور فوراً مع إمكانية الـ Rollback التلقائي.
+Application deployments strictly follow **GitOps** principles:
+1. Developers commit code changes to **GitHub**.
+2. **GitHub Actions** runs CI workflows, using keyless AWS OIDC authentication to build and push tagged images to **AWS ECR**.
+3. Helm values are updated with new image tags.
+4. **ArgoCD** detects the configuration drift, synchronizes the Kubernetes cluster automatically, and enables instant zero-downtime rollbacks if required.
 
 <br />
 
 <div align="center">
   <img src="https://placehold.co/1200x450/0f172a/6366f1?text=8.+GitHub+Actions+CI+%2B+ArgoCD+GitOps+Continuous+Deployment" alt="CI/CD Pipeline Architecture" width="100%" />
-  <p><i>شكل 8: خط الإنتاج التلقائي الكامل بداية من سحب الكود وحتى النشر عبر ArgoCD</i></p>
+  <p><i>Figure 8: End-to-End Automated CI/CD Engine via GitHub Actions and ArgoCD GitOps</i></p>
 </div>
 
 ---
 
 <div align="center">
   <br />
-  <p> Designed & Developed by <b>Mohammed Sameh</b> | DevOps & Platform Engineer</p>
+  <p>Designed & Developed by <b>Mohammed Sameh</b> | DevOps & Platform Engineer</p>
 </div>
