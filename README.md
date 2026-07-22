@@ -67,7 +67,7 @@
 
 ## 🏗️ Infrastructure as Code with Terraform (Modules 06-07)
 
-تدار البنية التحتية بالكامل بواسطة **Terraform Modules** لإنشاء بيئة AWS VPC احترافية مع شباك عامة وخاصة (Public/Private Subnets)، وحفظ الحالة (Remote State) عبر S3 مع DynamoDB للقفط (State Locking). كما يتم إنشاء مجتمع EKS مع إدارة هويات IAM ودعم OIDC مخصص للتطبيقات.
+تدار البنية التحتية بالكامل بواسطة **Terraform Modules** لإنشاء بيئة AWS VPC احترافية مع شبكات عامة وخاصة (Public/Private Subnets)، وحفظ الحالة (Remote State) عبر S3 مع DynamoDB للقفل (State Locking). كما يتم إنشاء مجتمع EKS مع إدارة هويات IAM ودعم OIDC مخصص للتطبيقات.
 
 <br />
 
