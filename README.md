@@ -57,7 +57,7 @@ The platform consists of **5 polyglot microservices** built with Java Spring Boo
 <br />
 
 <div align="center">
-  <img src=" https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/1.png " alt="Architecture Diagram" width="100%" />
+  <img src="https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/1.png" alt="Architecture Diagram" width="100%" />
   <p><i>Figure 1: End-to-End Microservices Architecture with AWS RDS, DynamoDB, ElastiCache, and SQS Integration</i></p>
 </div>
 
