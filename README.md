@@ -57,7 +57,7 @@ The platform consists of **5 polyglot microservices** built with Java Spring Boo
 <br />
 
 <div align="center">
-  <img src="https://placehold.co/1200x500/1e293b/00f2fe?text=1.+Full+Microservices+%26+AWS+Data+Plane+Architecture" alt="Architecture Diagram" width="100%" />
+  <img src="https://github.com/mohamedsameh2002/retail-store-presentation/blob/main/images/14_03_Dataplane_AWS_Cloud_Automated_Terraform.png" alt="Architecture Diagram" width="100%" />
   <p><i>Figure 1: End-to-End Microservices Architecture with AWS RDS, DynamoDB, ElastiCache, and SQS Integration</i></p>
 </div>
 
