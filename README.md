@@ -7,36 +7,36 @@
 
   <!-- 3 Fully Clickable Large Cards -->
   <table border="0" style="border-collapse: separate; border-spacing: 12px; width: 100%;">
-    <tr>
-      <td align="center" width="33%" style="padding: 20px; border: 1px solid #30363d; border-radius: 10px; background-color: #0d1117;">
-        <a href="https://github.com/mohamedsameh2002/retail-store-microservices" style="text-decoration: none; color: inherit; display: block; width: 100%; height: 100%;">
-          <img src="https://cdn.simpleicons.org/githubactions/2088FF" width="50" height="50" alt="CI/CD Pipeline" />
-          <h3 style="margin-top: 12px; color: #58a6ff;">🚀 Application & CI/CD</h3>
-          <p style="font-family: monospace; color: #e6edf3;">retail-store-microservices</p>
-          <p style="font-size: 12px; color: #8b949e; margin-top: 8px;">Microservices Source Code, Dockerfiles & CI/CD Workflows</p>
-          <span style="font-size: 11px; color: #2f81f7; font-weight: bold; display: inline-block; margin-top: 6px;">👉 Click anywhere to visit repository</span>
-        </a>
-      </td>
-      <td align="center" width="33%" style="padding: 20px; border: 1px solid #30363d; border-radius: 10px; background-color: #0d1117;">
-        <a href="https://github.com/mohamedsameh2002/kubernetes-helm-retail-store" style="text-decoration: none; color: inherit; display: block; width: 100%; height: 100%;">
-          <img src="https://cdn.simpleicons.org/kubernetes/326CE5" width="50" height="50" alt="Kubernetes Repo" />
-          <h3 style="margin-top: 12px; color: #58a6ff;">☸️ K8s & Helm Manifests</h3>
-          <p style="font-family: monospace; color: #e6edf3;">kubernetes-helm-retail-store</p>
-          <p style="font-size: 12px; color: #8b949e; margin-top: 8px;">Helm Charts, Ingress Controllers, Secrets & ExternalDNS</p>
-          <span style="font-size: 11px; color: #2f81f7; font-weight: bold; display: inline-block; margin-top: 6px;">👉 Click anywhere to visit repository</span>
-        </a>
-      </td>
-      <td align="center" width="33%" style="padding: 20px; border: 1px solid #30363d; border-radius: 10px; background-color: #0d1117;">
-        <a href="https://github.com/mohamedsameh2002/terraform-retail-store" style="text-decoration: none; color: inherit; display: block; width: 100%; height: 100%;">
-          <img src="https://cdn.simpleicons.org/terraform/844FBA" width="50" height="50" alt="Terraform Repo" />
-          <h3 style="margin-top: 12px; color: #58a6ff;">🏗️ Infrastructure as Code</h3>
-          <p style="font-family: monospace; color: #e6edf3;">terraform-retail-store</p>
-          <p style="font-size: 12px; color: #8b949e; margin-top: 8px;">AWS VPC, EKS Cluster, Karpenter & Modular IaC Setup</p>
-          <span style="font-size: 11px; color: #2f81f7; font-weight: bold; display: inline-block; margin-top: 6px;">👉 Click anywhere to visit repository</span>
-        </a>
-      </td>
-    </tr>
-  </table>
+  <tr>
+    <td align="center" width="33%" style="border: 1px solid #30363d; border-radius: 10px; background-color: #0d1117; padding: 0;">
+      <a href="https://github.com/mohamedsameh2002/retail-store-microservices" style="text-decoration: none; color: inherit; display: block; width: 100%; height: 100%; padding: 20px; box-sizing: border-box;">
+        <img src="https://cdn.simpleicons.org/githubactions/2088FF" width="50" height="50" alt="CI/CD Pipeline" />
+        <h3 style="margin-top: 12px; color: #58a6ff;">🚀 Application & CI/CD</h3>
+        <p style="font-family: monospace; color: #e6edf3;">retail-store-microservices</p>
+        <p style="font-size: 12px; color: #8b949e; margin-top: 8px;">Microservices Source Code, Dockerfiles & CI/CD Workflows</p>
+        <span style="font-size: 11px; color: #2f81f7; font-weight: bold; display: inline-block; margin-top: 6px;">👉 Click anywhere to visit repository</span>
+      </a>
+    </td>
+    <td align="center" width="33%" style="border: 1px solid #30363d; border-radius: 10px; background-color: #0d1117; padding: 0;">
+      <a href="https://github.com/mohamedsameh2002/kubernetes-helm-retail-store" style="text-decoration: none; color: inherit; display: block; width: 100%; height: 100%; padding: 20px; box-sizing: border-box;">
+        <img src="https://cdn.simpleicons.org/kubernetes/326CE5" width="50" height="50" alt="Kubernetes Repo" />
+        <h3 style="margin-top: 12px; color: #58a6ff;">☸️ K8s & Helm Manifests</h3>
+        <p style="font-family: monospace; color: #e6edf3;">kubernetes-helm-retail-store</p>
+        <p style="font-size: 12px; color: #8b949e; margin-top: 8px;">Helm Charts, Ingress Controllers, Secrets & ExternalDNS</p>
+        <span style="font-size: 11px; color: #2f81f7; font-weight: bold; display: inline-block; margin-top: 6px;">👉 Click anywhere to visit repository</span>
+      </a>
+    </td>
+    <td align="center" width="33%" style="border: 1px solid #30363d; border-radius: 10px; background-color: #0d1117; padding: 0;">
+      <a href="https://github.com/mohamedsameh2002/terraform-retail-store" style="text-decoration: none; color: inherit; display: block; width: 100%; height: 100%; padding: 20px; box-sizing: border-box;">
+        <img src="https://cdn.simpleicons.org/terraform/844FBA" width="50" height="50" alt="Terraform Repo" />
+        <h3 style="margin-top: 12px; color: #58a6ff;">🏗️ Infrastructure as Code</h3>
+        <p style="font-family: monospace; color: #e6edf3;">terraform-retail-store</p>
+        <p style="font-size: 12px; color: #8b949e; margin-top: 8px;">AWS VPC, EKS Cluster, Karpenter & Modular IaC Setup</p>
+        <span style="font-size: 11px; color: #2f81f7; font-weight: bold; display: inline-block; margin-top: 6px;">👉 Click anywhere to visit repository</span>
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
