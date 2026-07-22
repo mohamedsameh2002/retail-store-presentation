@@ -10,7 +10,7 @@
     <tr>
       <td align="center" width="33%" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
         <a href="https://github.com/mohamedsameh2002/retail-store-microservices" style="text-decoration: none; color: inherit; display: block;">
-          <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/github-actions/github-actions.png" width="60" alt="CI/CD Pipeline" />
+          <img src=" https://www.cisco.com/content/dam/cisco-cdc/site/images/legacy/assets/swa/img/anchor-info/what-is-cicd-628x353.jpg " width="60" alt="CI/CD Pipeline" />
           <h3 style="margin-top: 10px; color: #58a6ff;">🚀 Application & CI/CD</h3>
           <p><code>retail-store-microservices</code></p>
           <p style="font-size: 12px; color: #8b949e; margin-top: 8px;">Microservices Source Code, Dockerfiles & CI/CD Workflows</p>
